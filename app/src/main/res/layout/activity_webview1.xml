@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,16 +7,27 @@
     android:orientation="vertical"
     tools:context=".webview1">
 
+    <WebView
+        android:id="@+id/webview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+    </WebView>
+
     <LinearLayout
         android:id="@+id/linearLayout1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="?actionBarSize"
-            android:background="@color/colorPrimaryDark">
+            android:layout_height="50dp"
+            android:background="#1430CC">
 
             <ImageView
                 android:id="@+id/back10"
@@ -26,13 +37,14 @@
                 android:src="@drawable/ic_baseline_arrow_back_24" />
 
             <TextView
+                android:id="@+id/ignore"
                 android:layout_width="329dp"
-                android:layout_height="55dp"
+                android:layout_height="50dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
                 android:layout_marginStart="60dp"
-                android:layout_marginEnd="19dp"
+                android:layout_marginEnd="5dp"
                 android:fontFamily="@font/aclonica"
                 android:gravity="center_vertical"
                 android:text="College Details"
@@ -41,16 +53,8 @@
                 android:textStyle="bold" />
 
 
-
         </RelativeLayout>
 
-        <WebView
-            android:id="@+id/webview1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" >
-
-
-        </WebView>
 
     </LinearLayout>
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

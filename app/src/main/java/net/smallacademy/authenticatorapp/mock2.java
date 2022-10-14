@@ -1,6 +1,7 @@
 package net.smallacademy.authenticatorapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -17,6 +18,7 @@ public class mock2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mock2);
+        getWindow().setStatusBarColor(ContextCompat.getColor(mock2.this,R.color.colorPrimaryDark));
         int Prev_score;
         int Prev_score1;
         button = findViewById(R.id.button5);

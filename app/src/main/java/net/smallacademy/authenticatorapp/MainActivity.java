@@ -3,6 +3,7 @@ package net.smallacademy.authenticatorapp;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import android.app.Activity;
 import android.content.ContentResolver;
@@ -58,6 +59,7 @@ public class MainActivity extends DrawerBaseActivity {
 
 
         setContentView(R.layout.activity_main);
+        getWindow().setStatusBarColor(ContextCompat.getColor(MainActivity.this,R.color.colorPrimaryDark));
         allocateActivityTitle("MainPage");
         phone = findViewById(R.id.profilePhone);
         fullName = findViewById(R.id.profileName);

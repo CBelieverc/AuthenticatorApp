@@ -57,7 +57,7 @@
             android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
-                app:cardCornerRadius="@dimen/_10sdp"
+                app:cardCornerRadius="@dimen/_15sdp"
                 android:layout_marginStart="@dimen/_7sdp"
                 android:layout_marginRight="@dimen/_7sdp"
                 android:layout_marginTop="@dimen/_20sdp"
@@ -74,7 +74,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_15sdp"
                     android:layout_marginRight="@dimen/_7sdp"
-                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
                     android:id="@+id/number"
                     android:paddingBottom="15dp"
 
@@ -88,7 +88,7 @@
                     android:textColor="@color/black"
                     android:layout_marginStart="@dimen/_26sdp"
                     android:layout_marginRight="@dimen/_7sdp"
-                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
                     android:text="@string/app_name"
                     />
 
@@ -124,7 +124,7 @@
                 android:layout_marginTop="@dimen/_20sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
                 android:layout_marginRight="@dimen/_10sdp"
-                app:cardCornerRadius="@dimen/_5sdp">
+                app:cardCornerRadius="@dimen/_10sdp">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -157,7 +157,7 @@
                 android:layout_marginTop="@dimen/_20sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
                 android:layout_marginRight="@dimen/_10sdp"
-                app:cardCornerRadius="@dimen/_5sdp">
+                app:cardCornerRadius="@dimen/_10sdp">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -190,7 +190,7 @@
                 android:layout_marginTop="@dimen/_20sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
                 android:layout_marginRight="@dimen/_10sdp"
-                app:cardCornerRadius="@dimen/_5sdp">
+                app:cardCornerRadius="@dimen/_10sdp">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -223,7 +223,7 @@
                 android:layout_marginTop="@dimen/_20sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
                 android:layout_marginRight="@dimen/_10sdp"
-                app:cardCornerRadius="@dimen/_5sdp">
+                app:cardCornerRadius="@dimen/_10sdp">
 
                 <TextView
                     android:layout_width="wrap_content"

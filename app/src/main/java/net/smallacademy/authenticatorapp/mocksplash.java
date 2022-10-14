@@ -1,6 +1,7 @@
 package net.smallacademy.authenticatorapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,6 +13,7 @@ public class mocksplash extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mocksplash);
+        getWindow().setStatusBarColor(ContextCompat.getColor(mocksplash.this,R.color.colorPrimaryDark));
 
         new Handler().postDelayed(new Runnable() {
         @Override

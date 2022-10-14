@@ -1,5 +1,6 @@
 package net.smallacademy.authenticatorapp;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -21,6 +22,7 @@ public class Rank_Predict extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rank_predict);
+        getWindow().setStatusBarColor(ContextCompat.getColor(Rank_Predict.this,R.color.colorPrimaryDark));
         editTextNumber3 = findViewById(R.id.editTextNumber3);
         editTextNumber3.setFilters(new InputFilter[]{ new InputFilterMinMax("0", "100")});
         editTextNumber5 = findViewById(R.id.editTextNumber5);

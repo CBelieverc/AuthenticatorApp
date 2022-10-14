@@ -1,6 +1,7 @@
 package net.smallacademy.authenticatorapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import android.content.ActivityNotFoundException;
 import android.content.Context;
@@ -22,6 +23,7 @@ public class aboutus extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_aboutus);
+        getWindow().setStatusBarColor(ContextCompat.getColor(aboutus.this,R.color.colorPrimaryDark));
         ImageView tele =findViewById(R.id.teleIMAge);
         ImageView btnew =findViewById(R.id.sharenew);
         TextView btTEXT =findViewById(R.id.shareTEXT);

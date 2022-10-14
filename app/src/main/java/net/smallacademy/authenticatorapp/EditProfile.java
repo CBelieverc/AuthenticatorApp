@@ -3,6 +3,7 @@ package net.smallacademy.authenticatorapp;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 
 import android.Manifest;
 import android.app.Activity;
@@ -51,7 +52,7 @@ public class EditProfile extends DrawerBaseActivity {
         setContentView(R.layout.activity_edit_profile);
         allocateActivityTitle("EditProfile");
         ImageView backbtn=findViewById(R.id.back7);
-
+        getWindow().setStatusBarColor(ContextCompat.getColor(EditProfile.this,R.color.colorPrimaryDark));
 
         Intent data = getIntent();
         final String fullName = data.getStringExtra("fullName");

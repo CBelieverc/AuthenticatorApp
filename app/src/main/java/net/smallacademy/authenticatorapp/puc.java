@@ -1,6 +1,7 @@
 package net.smallacademy.authenticatorapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,6 +15,7 @@ public class puc extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_puc);
+        getWindow().setStatusBarColor(ContextCompat.getColor(puc.this,R.color.colorPrimaryDark));
 
         ImageView back13 =findViewById(R.id.back13);
         back13.setOnClickListener(new View.OnClickListener() {

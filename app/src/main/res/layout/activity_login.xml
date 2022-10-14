@@ -14,6 +14,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/aclonica"
         android:text=" Hello there,Welcome back"
+        android:layout_marginStart="16dp"
         android:textColor="@color/colorWhite"
         android:textSize="27dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,15 +25,15 @@
         app:layout_constraintVertical_bias="0.376" />
 
 
-
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="230dp"
         android:layout_marginTop="4dp"
         android:background="@drawable/dsmf"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="0dp"></ImageView>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
 
     <EditText
         android:id="@+id/Email"

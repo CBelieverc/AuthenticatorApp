@@ -1,6 +1,7 @@
 package net.smallacademy.authenticatorapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -25,18 +26,11 @@ public class wonactivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wonactivity);
+        getWindow().setStatusBarColor(ContextCompat.getColor(wonactivity.this,R.color.colorPrimaryDark));
 
         viewKonfetti=findViewById(R.id.viewKonfetti);
-        viewKonfetti.build()
-                .addColors(Color.YELLOW, Color.GREEN, Color.MAGENTA,Color.RED)
-                .setDirection(0.0, 359.0)
-                .setSpeed(1f, 5f)
-                .setFadeOutEnabled(true)
-                .setTimeToLive(2000L)
-                .addShapes(Shape.RECT, Shape.CIRCLE)
-                .addSizes(new Size(12, 5))
-                .setPosition(-50f, viewKonfetti.getWidth() + 50f, -50f, 50f)
-                .streamFor(550, 5000L);
+
+
 
         CircularProgressBar circularProgressBar;
         TextView result_text,ic_exit;
@@ -44,8 +38,7 @@ public class wonactivity extends AppCompatActivity {
         int Correct,Wrong;
 
 
-
-            circularProgressBar = findViewById(R.id.circularProgressBar);
+        circularProgressBar = findViewById(R.id.circularProgressBar);
             result_text = findViewById(R.id.result_text);
             btn_share = findViewById(R.id.btn_share);
             ic_exit=findViewById(R.id.ic_exit);
@@ -53,7 +46,21 @@ public class wonactivity extends AppCompatActivity {
             Correct=getIntent().getIntExtra("Correct",0);
             Wrong=getIntent().getIntExtra("Wrong",0);
 
-            circularProgressBar.setProgress(Correct);
+       if (Correct != 0) {
+            viewKonfetti.build()
+                    .addColors(Color.YELLOW, Color.GREEN, Color.MAGENTA, Color.RED)
+                    .setDirection(0.0, 359.0)
+                    .setSpeed(1f, 5f)
+                    .setFadeOutEnabled(true)
+                    .setTimeToLive(2000L)
+                    .addShapes(Shape.RECT, Shape.CIRCLE)
+                    .addSizes(new Size(12, 5))
+                    .setPosition(-50f, viewKonfetti.getWidth() + 50f, -50f, 50f)
+                    .streamFor(550, 5000L);
+        }
+
+
+        circularProgressBar.setProgress(Correct);
             result_text.setText((Correct+"/60"));
 
             ic_exit.setOnClickListener(new View.OnClickListener() {

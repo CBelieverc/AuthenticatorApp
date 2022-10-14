@@ -1,6 +1,7 @@
 package net.smallacademy.authenticatorapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -14,6 +15,7 @@ public class admissionprocess extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admissionprocess);
+        getWindow().setStatusBarColor(ContextCompat.getColor(admissionprocess.this,R.color.colorPrimaryDark));
         TextView schedule = findViewById(R.id.schedule);
         schedule.setOnClickListener(new View.OnClickListener() {
             @Override

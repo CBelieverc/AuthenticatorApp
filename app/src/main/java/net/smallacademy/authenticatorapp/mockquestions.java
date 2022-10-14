@@ -2,6 +2,7 @@ package net.smallacademy.authenticatorapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
+import androidx.core.content.ContextCompat;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -34,6 +35,7 @@ public class mockquestions extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mockquestions);
+        getWindow().setStatusBarColor(ContextCompat.getColor(mockquestions.this,R.color.colorPrimaryDark));
         Hooks();
         prolog();
         String url1111;
@@ -304,8 +306,7 @@ public class mockquestions extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 counter = 36000;
-                Intent intent = new Intent(mockquestions.this, mocksubjects.class);
-                startActivity(intent);
+                gamewon();
             }
         });
 

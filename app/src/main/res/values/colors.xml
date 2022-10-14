@@ -32,7 +32,9 @@
     <color name="on_one">@color/colorWhite</color>
     <color name="on_two">@color/colorWhite</color>
     <color name="on_three">@color/colorWhite</color>
+    <color name="statusbar">#044fab</color>
     <array name="active">
+
         <item>@color/colorWhite</item>
         <item>@color/colorWhite</item>
         <item>@color/on_three</item>

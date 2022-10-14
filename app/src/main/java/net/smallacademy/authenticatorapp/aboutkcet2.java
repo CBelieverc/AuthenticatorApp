@@ -1,6 +1,7 @@
 package net.smallacademy.authenticatorapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -15,6 +16,7 @@ public class aboutkcet2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_aboutkcet2);
+        getWindow().setStatusBarColor(ContextCompat.getColor(aboutkcet2.this,R.color.colorPrimaryDark));
         TextView application = findViewById(R.id.application);
         application.setOnClickListener(new View.OnClickListener() {
             @Override

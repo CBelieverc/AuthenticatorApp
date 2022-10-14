@@ -7,28 +7,62 @@
     android:layout_height="match_parent"
     tools:context=".SplashActivity">
 
-    <TextView
-        android:layout_marginTop="20dp"
-        android:id="@+id/txt_v"
-        android:textAppearance="@style/TextAppearance.AppCompat.Title"
-        android:textSize="30dp"
-        android:paddingStart="40dp"
-        android:fontFamily="@font/abeezee_italic"
-        android:textColor="@android:color/white"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="KCET complete guide" />
+
 
     <ImageView
         android:id="@+id/image_view"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_above="@id/txt_v"
-        android:layout_centerInParent="true"
-        android:elevation="8dp"
-        android:src="@drawable/img" />
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="252dp"
+        android:src="@drawable/img"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.37" />
 
+    <TextView
+        android:id="@+id/txt_v"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:layout_centerInParent="true"
+
+        android:layout_marginBottom="302dp"
+        android:fontFamily="@font/aclonica"
+        android:text="k-cet"
+        android:textColor="#FBF6F6"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.529" />
+
+    <TextView
+        android:id="@+id/txt_v1"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="275dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Complete Guide"
+        android:textColor="#FBF6F6"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.61" />
 
 
 </RelativeLayout>

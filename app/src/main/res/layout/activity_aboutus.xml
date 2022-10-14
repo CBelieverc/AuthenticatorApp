@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1A0F4C"
+    android:background="#0712DD"
     tools:context=".aboutus">
 
     <ImageView
@@ -111,6 +111,7 @@
                     android:layout_width="55dp"
                     android:layout_height="55dp"
                     android:padding="15dp"
+                    android:layout_marginStart="15dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/textView_a1"
                     app:layout_constraintHorizontal_bias="0.143"
@@ -120,13 +121,14 @@
 
                 <TextView
                     android:id="@+id/teleTEXt"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="333dp"
+                    android:layout_height="19dp"
+                    android:layout_marginStart="10dp"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentEnd="true"
                     android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
                     android:layout_marginEnd="64dp"
-                    android:layout_marginTop="14dp"
                     android:fontFamily="@font/aclonica"
                     android:text="Join our Telegram Channel"
                     android:textAllCaps="true"
@@ -148,6 +150,7 @@
                     android:layout_width="55dp"
                     android:layout_height="55dp"
                     android:padding="15dp"
+                    android:layout_marginStart="15dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/textView_a2"
                     app:layout_constraintHorizontal_bias="0.143"
@@ -158,15 +161,15 @@
                 <TextView
                     android:id="@+id/textView_a2"
 
-                    android:layout_width="wrap_content"
-
-                    android:layout_height="wrap_content"
+                    android:layout_width="322dp"
+                    android:layout_height="21dp"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentEnd="true"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
                     android:fontFamily="@font/aclonica"
-                    android:text="Join our instagram Channel"
+                    android:text="Follow us on instagram"
 
                     android:textAllCaps="true"
                     android:textColor="@color/colorWhite"
@@ -184,7 +187,7 @@
 
                 <ImageView
                     android:id="@+id/face"
-
+                    android:layout_marginStart="15dp"
                     android:layout_width="55dp"
                     android:layout_height="55dp"
                     android:padding="15dp"
@@ -197,14 +200,14 @@
 
                 <TextView
                     android:id="@+id/faceTEXT"
-                    android:layout_width="wrap_content"
-
+                    android:layout_width="305dp"
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentEnd="true"
                     android:layout_centerHorizontal="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="3dp"
                     android:layout_marginEnd="85dp"
-                    android:layout_marginTop="9dp"
                     android:fontFamily="@font/aclonica"
                     android:text="Follow us on Facebook"
                     android:textAllCaps="true"
@@ -236,6 +239,7 @@
                     android:layout_width="55dp"
                     android:layout_height="55dp"
                     android:padding="15dp"
+                    android:layout_marginStart="15dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/textView_a4"
                     app:layout_constraintHorizontal_bias="0.143"
@@ -245,14 +249,14 @@
 
                 <TextView
                     android:id="@+id/txtView"
-                    android:layout_width="wrap_content"
-
+                    android:layout_width="312dp"
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentEnd="true"
                     android:layout_centerHorizontal="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
                     android:layout_marginEnd="114dp"
-                    android:layout_marginTop="15dp"
                     android:fontFamily="@font/aclonica"
                     android:text="Contact us by E-mail"
                     android:textAllCaps="true"
@@ -276,6 +280,7 @@
                     android:layout_width="55dp"
                     android:layout_height="55dp"
                     android:padding="15dp"
+                    android:layout_marginStart="15dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/textView_a5"
                     app:layout_constraintHorizontal_bias="0.143"
@@ -285,14 +290,14 @@
 
                 <TextView
                     android:id="@+id/textView_a5"
-                    android:layout_width="wrap_content"
-
-                    android:layout_height="wrap_content"
+                    android:layout_width="315dp"
+                    android:layout_height="19dp"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentEnd="true"
                     android:layout_centerHorizontal="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="18dp"
                     android:layout_marginEnd="104dp"
-                    android:layout_marginTop="15dp"
                     android:fontFamily="@font/aclonica"
                     android:text="Rate us on Play Store"
                     android:textAllCaps="true"
@@ -315,6 +320,7 @@
                     android:layout_width="55dp"
                     android:layout_height="55dp"
                     android:padding="10dp"
+                    android:layout_marginStart="15dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/textView_a6"
                     app:layout_constraintHorizontal_bias="0.143"
@@ -324,13 +330,13 @@
 
                 <TextView
                     android:id="@+id/shareTEXT"
-                    android:layout_width="wrap_content"
+                    android:layout_width="173dp"
 
-                    android:layout_height="wrap_content"
-
+                    android:layout_height="24dp"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginEnd="189dp"
+                    android:layout_marginStart="10dp"
                     android:layout_marginTop="18dp"
+                    android:layout_marginEnd="189dp"
 
                     android:fontFamily="@font/aclonica"
                     android:text="Share app"

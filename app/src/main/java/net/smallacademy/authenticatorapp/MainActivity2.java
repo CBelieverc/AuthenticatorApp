@@ -2,6 +2,7 @@ package net.smallacademy.authenticatorapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 
 import android.app.Activity;
@@ -62,6 +63,8 @@ public class MainActivity2 extends DrawerBaseActivity {
         animationDrawable.start();
 
 
+
+        getWindow().setStatusBarColor(ContextCompat.getColor(MainActivity2.this,R.color.statusbar));
         final TextView textView=findViewById(R.id.welcome);
         fAuth = FirebaseAuth.getInstance();
         fStore = FirebaseFirestore.getInstance();
@@ -191,6 +194,8 @@ public class MainActivity2 extends DrawerBaseActivity {
         }
         pressedTime = System.currentTimeMillis();
     }
+
+
 
 
 }

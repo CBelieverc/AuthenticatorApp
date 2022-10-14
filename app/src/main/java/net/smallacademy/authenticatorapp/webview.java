@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.MotionEvent;
 import android.webkit.WebView;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import android.content.Intent;
@@ -24,6 +25,7 @@ public class webview extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_webview);
+        getWindow().setStatusBarColor(ContextCompat.getColor(webview.this,R.color.colorPrimaryDark));
 
         Toast.makeText(this, "Opening PDF ", Toast.LENGTH_SHORT).show();
         ImageView back=findViewById(R.id.back5);

@@ -1,6 +1,7 @@
 package net.smallacademy.authenticatorapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,6 +14,7 @@ public class prev extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_prev);
+        getWindow().setStatusBarColor(ContextCompat.getColor(prev.this,R.color.colorPrimaryDark));
         ImageView back2 =findViewById(R.id.back2);
         back2.setOnClickListener(new View.OnClickListener() {
             @Override
