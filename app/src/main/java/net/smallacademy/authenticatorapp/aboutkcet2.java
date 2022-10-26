@@ -1,33 +1,37 @@
 package net.smallacademy.authenticatorapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import android.content.Intent;
-import android.content.IntentFilter;
-import android.net.ConnectivityManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import net.smallacademy.authenticatorapp.utility.NetworkChangeList;
-
 public class aboutkcet2 extends AppCompatActivity {
-    NetworkChangeList networkChangeList = new NetworkChangeList();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_aboutkcet2);
+        getWindow().setStatusBarColor(ContextCompat.getColor(aboutkcet2.this,R.color.colorPrimaryDark));
         TextView application = findViewById(R.id.application);
         application.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), details.class);
                 startActivity(intent);
+            }
+        });
+        TextView about = findViewById(R.id.about);
+        about.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), aboutkcet_view.class);
+                startActivity(intent);
                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
-
             }
         });
         TextView result = findViewById(R.id.result);
@@ -57,19 +61,5 @@ public class aboutkcet2 extends AppCompatActivity {
                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
         });
-    }
-
-    @Override
-    protected void onStart() {
-        IntentFilter filter =new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
-        registerReceiver(networkChangeList,filter);
-
-        super.onStart();
-    }
-
-    @Override
-    protected void onStop() {
-        unregisterReceiver(networkChangeList);
-        super.onStop();
     }
 }

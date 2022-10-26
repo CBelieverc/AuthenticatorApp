@@ -20,11 +20,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".aboutkcet_view"
+            android:exported="false" />
+        <activity
+            android:name=".videotopics2"
+            android:exported="false" />
+        <activity
             android:name=".recycler_notify"
             android:exported="false" />
         <activity
             android:name=".HelperActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".notification"
             android:exported="false" />
@@ -97,7 +103,7 @@
         <activity
             android:name=".SplashActivity"
             android:exported="true"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".details"
             android:exported="false"

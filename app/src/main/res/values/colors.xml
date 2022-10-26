@@ -25,6 +25,11 @@
     <color name="gradientLightBlue">#376DF6</color>
     <color name="gradientLightGreen">#21E8AC</color>
 
+    <!--collegelist colours-->
+    <color name="cutoff">#E7FD04</color>
+    <color name="moredetails">#F7A23C</color>
+    <color name="collegewebsite">#21E8AC</color>
+
     <color name="dark_one">@color/back</color>
     <color name="dark_two">@color/back</color>
     <color name="dark_three">@color/back</color>

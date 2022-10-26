@@ -2,9 +2,8 @@ package net.smallacademy.authenticatorapp;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
-import android.content.IntentFilter;
-import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.view.View;
 import android.webkit.WebResourceRequest;
@@ -13,21 +12,22 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ImageView;
-
-import net.smallacademy.authenticatorapp.utility.NetworkChangeList;
+import android.widget.TextView;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class webview1 extends AppCompatActivity {
-    NetworkChangeList networkChangeList = new NetworkChangeList();
-
 
     private WebView webview;
+    TextView textView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_webview1);
+
+        getWindow().setStatusBarColor(ContextCompat.getColor(webview1.this,R.color.colorPrimaryDark));
+
 
         ImageView back10 =findViewById(R.id.back10);
         back10.setOnClickListener(new View.OnClickListener() {
@@ -37,10 +37,22 @@ public class webview1 extends AppCompatActivity {
             }
         });
         String URL = getIntent().getStringExtra("details_url");
+        String URL1 = getIntent().getStringExtra("content");
         AdBlocker.init(this);
-
+        textView=findViewById(R.id.ignore);
         webview=(WebView)findViewById(R.id.webview1);
         webview.setWebViewClient(new MyBrowser());
+
+        if(URL1.contentEquals("cutoff")){
+            textView.setText("Cut off And Fees Structure");
+        }
+
+        textView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
 
         WebSettings webSettings = webview.getSettings();
         webSettings.setJavaScriptEnabled(true);
@@ -78,18 +90,5 @@ public class webview1 extends AppCompatActivity {
         } else {
             super.onBackPressed();
         }
-    }
-    @Override
-    protected void onStart() {
-        IntentFilter filter =new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
-        registerReceiver(networkChangeList,filter);
-
-        super.onStart();
-    }
-
-    @Override
-    protected void onStop() {
-        unregisterReceiver(networkChangeList);
-        super.onStop();
     }
 }
