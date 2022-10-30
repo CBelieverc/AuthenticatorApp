@@ -51,6 +51,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginTop="81dp"
         android:layout_marginBottom="56dp"
+        android:onClick="openactivityC"
         android:drawableStart="@drawable/ic_web"
         android:drawablePadding="15dp"
 
@@ -96,6 +97,7 @@
         android:drawablePadding="15dp"
 
         app:cardCornerRadius="20dp"
+        android:onClick="openactivityB"
         app:layout_constraintBottom_toBottomOf="@+id/button_v3"
         app:layout_constraintEnd_toStartOf="@+id/button_v3"
         app:layout_constraintHorizontal_bias="0.623"
@@ -137,7 +139,7 @@
         android:layout_alignParentBottom="true"
         android:drawableStart="@drawable/ic_web"
         android:drawablePadding="15dp"
-
+        android:onClick="openactivityD"
         app:cardCornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -180,6 +182,8 @@
         android:drawablePadding="15dp"
 
         app:cardCornerRadius="20dp"
+        android:onClick="openactivityA"
+
         app:layout_constraintBottom_toTopOf="@+id/button_v3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.938"
