@@ -88,7 +88,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="0dp"
+                            android:layout_marginStart="10dp"
                             android:layout_marginTop="20dp"
                             android:background="@drawable/rectanle"
                             android:padding="10dp"
@@ -102,8 +102,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
                             android:layout_marginStart="15dp"
-                            android:layout_marginTop="95dp"
+                            android:layout_marginTop="85dp"
                             android:text="The final print out of the CET-2020 Online Application Form (final edited copy, in case of editing of application)."
                             android:textColor="#000000"
                             android:textSize="16dp"></TextView>
@@ -113,7 +114,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="15dp"
-                            android:layout_marginTop="205dp"
+                            android:layout_marginTop="185dp"
                             android:text="'CET-2020' Admission Ticket."
                             android:textColor="#000000"
                             android:textSize="16dp">
@@ -123,90 +124,92 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="250dp"
+                            android:layout_marginTop="230dp"
                             android:paddingStart="15dp"
                             android:text="SSLC/10th Standard Marks Card."
                             android:textColor="#000000"
                             android:textSize="16dp">
 
                         </TextView>
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="290dp"
-                            android:textColor="#000000"
-                            android:textSize="16dp"
+                            android:layout_marginTop="270dp"
                             android:paddingStart="15dp"
+                            android:text="2nd PUC/12th Standard Marks Card."
+                            android:textColor="#000000"
 
 
-                            android:text="2nd PUC/12th Standard Marks Card.">
-                        </TextView>
+                            android:textSize="16dp"></TextView>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="330dp"
+                            android:layout_marginTop="310dp"
                             android:paddingStart="15dp"
                             android:text="# If a candidate has not received the original marks card of Qualifying Examination for 2020 from the concerned boards, then the candidate should obtain the signature of the Principal of the institution where he/ she has passed 2nd PU / 12th Standard examination on the provisional marks card."
                             android:textColor="#000000"
                             android:textSize="16dp"></TextView>
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="480dp"
-                            android:textColor="#000000"
-                            android:textSize="16dp"
+                            android:layout_marginTop="510dp"
                             android:paddingStart="15dp"
-                            android:text="# Internet downloaded marks statement printout will not be accepted.">
+                            android:text="# Internet downloaded marks statement printout will not be accepted."
+                            android:textColor="#000000"
+                            android:textSize="16dp">
 
                         </TextView>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="530dp"
+                            android:layout_marginTop="565dp"
                             android:paddingStart="15dp"
                             android:text="SEVEN Years Study Certificate counter signed by the concerned BEO / DDPI."
                             android:textColor="#000000"
 
 
                             android:textSize="16dp"></TextView>
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="580dp"
-                            android:textColor="#000000"
-                            android:textSize="16dp"
+                            android:layout_marginTop="640dp"
                             android:paddingStart="15dp"
-
-
-                            android:text="#Study Certificate to show that the candidate has studied in Karnataka for a minimum period of SEVEN years from 1st standard to 12th standard or qualifying examination issued by Head of the institution including either SSLC/10th Standard or 2nd PUC/12th Standard.">
-                        </TextView>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="730dp"
+                            android:text="#Study Certificate to show that the candidate has studied in Karnataka for a minimum period of SEVEN years from 1st standard to 12th standard or qualifying examination issued by Head of the institution including either SSLC/10th Standard or 2nd PUC/12th Standard."
                             android:textColor="#000000"
-                            android:textSize="16dp"
-                            android:paddingStart="15dp"
-                            android:paddingBottom="15dp"
 
 
-                            android:text="#Further, School study certificates should be countersigned by the concerned Block Educational Officer (BEO)/Deputy Director of Public Instructions (DDPI) COMPULSORILY in the proforma prescribed in the following pages."     >
-
-                        </TextView>
+                            android:textSize="16dp"></TextView>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="870dp"
-                            android:textColor="#000000"
-                            android:textSize="16dp"
+                            android:layout_marginTop="820dp"
                             android:paddingStart="15dp"
                             android:paddingBottom="15dp"
+                            android:text="#Further, School study certificates should be countersigned by the concerned Block Educational Officer (BEO)/Deputy Director of Public Instructions (DDPI) COMPULSORILY in the proforma prescribed in the following pages."
+                            android:textColor="#000000"
 
 
-                            android:text="# Counter signature is not required for CBSE / CISCE study certificate."     >
+                            android:textSize="16dp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="972dp"
+                            android:paddingStart="15dp"
+                            android:paddingBottom="15dp"
+                            android:text="# Counter signature is not required for CBSE / CISCE study certificate."
+                            android:textColor="#000000"
+
+
+                            android:textSize="16dp">
 
                         </TextView>
                     </RelativeLayout>
@@ -236,8 +239,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="0dp"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:background="@drawable/rectanle"
                             android:padding="10dp"
                             android:text="Only-if-applicable Documents"
@@ -261,7 +263,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="15dp"
-                            android:layout_marginTop="185dp"
+                            android:layout_marginTop="195dp"
                             android:text="# The candidates who claim seat under Supernumerary Quota will have to obtain an income certificate from the concerned Tahasildar."
                             android:textColor="#000000"
                             android:textSize="16dp">
@@ -271,7 +273,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="280dp"
+                            android:layout_marginTop="300dp"
                             android:paddingStart="15dp"
                             android:text="#SC/ST/Cat-1 and GM candidates should obtain income certificates separately."
                             android:textColor="#000000"
@@ -282,7 +284,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="345dp"
+                            android:layout_marginTop="368dp"
                             android:paddingStart="15dp"
                             android:text="# Caste and Income certificate produced by eligible 2A, 2B, 3A and 3B category candidates will be considered for Supernumerary seats."
                             android:textColor="#000000"
@@ -292,7 +294,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="445dp"
+                            android:layout_marginTop="485dp"
                             android:textColor="#000000"
                             android:textSize="16dp"
                             android:paddingStart="15dp"
@@ -304,7 +306,7 @@ Candidates who have studied in Kannada Medium from 1st to 10th Std. in Karnataka
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="520dp"
+                            android:layout_marginTop="590dp"
                             android:paddingStart="15dp"
                             android:text="# Certificate for having studied 10 full academic years in Kannada medium from 1st standard to 10th standard issued by the Head of the educational institution and such certificate should be countersigned by the respective BEO or DDPI in the proforma prescribed in the following pages."
                             android:textColor="#000000"
@@ -312,7 +314,7 @@ Candidates who have studied in Kannada Medium from 1st to 10th Std. in Karnataka
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="670dp"
+                            android:layout_marginTop="780dp"
                             android:textColor="#000000"
                             android:textSize="16dp"
                             android:paddingStart="15dp"
@@ -324,18 +326,16 @@ Candidates who have studied in Kannada Medium from 1st to 10th Std. in Karnataka
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="700dp"
+                            android:layout_marginTop="815dp"
                             android:paddingStart="15dp"
                             android:paddingBottom="15dp"
                             android:text="# The candidates who claim seat under rural category will have to obtain a rural study certificate for having studied 10 full academic years in rural areas from 1st standard to 10th standard from the respective school / high school issued by the head of the institution which should be countersigned by the concerned Block Educational Officer (BEO) as per format shown in the following pages."
                             android:textColor="#000000"
-
-
                             android:textSize="16dp"></TextView>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="950dp"
+                            android:layout_marginTop="1070dp"
                             android:textColor="#000000"
                             android:textSize="16dp"
                             android:paddingStart="15dp"
@@ -347,7 +347,7 @@ Candidates who have studied in Kannada Medium from 1st to 10th Std. in Karnataka
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="1300dp"
+                            android:layout_marginTop="1210dp"
                             android:textColor="#000000"
                             android:textSize="16dp"
                             android:paddingStart="15dp"
@@ -359,7 +359,7 @@ Candidates who have studied in Kannada Medium from 1st to 10th Std. in Karnataka
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="1600dp"
+                            android:layout_marginTop="1245dp"
                             android:textColor="#000000"
                             android:textSize="16dp"
                             android:paddingStart="15dp"
@@ -371,7 +371,7 @@ Candidates who have studied in Kannada Medium from 1st to 10th Std. in Karnataka
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="1630dp"
+                            android:layout_marginTop="1615dp"
                             android:textColor="#000000"
                             android:textSize="16dp"
                             android:paddingStart="15dp"
@@ -383,7 +383,7 @@ Candidates who have studied in Kannada Medium from 1st to 10th Std. in Karnataka
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="1900dp"
+                            android:layout_marginTop="1675dp"
                             android:textColor="#000000"
                             android:textSize="16dp"
                             android:paddingStart="15dp"
@@ -395,7 +395,7 @@ Candidates who have studied in Kannada Medium from 1st to 10th Std. in Karnataka
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="2200dp"
+                            android:layout_marginTop="1830dp"
                             android:textColor="#000000"
                             android:textSize="16dp"
                             android:paddingStart="15dp"
@@ -408,7 +408,7 @@ Candidates who have studied in Kannada Medium from 1st to 10th Std. in Karnataka
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="1600dp"
+                            android:layout_marginTop="2020dp"
                             android:paddingStart="15dp"
                             android:paddingBottom="15dp"
                             android:text="Duly sworn in Affidavit of the candidate who claims eligibility under Horanadu and Gadinadu Kannadiga clauses C and D (Regarding Mother Tongue)."
@@ -419,7 +419,7 @@ Candidates who have studied in Kannada Medium from 1st to 10th Std. in Karnataka
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="2500dp"
+                            android:layout_marginTop="2130dp"
                             android:textColor="#000000"
                             android:textSize="16dp"
                             android:paddingStart="15dp"
@@ -432,15 +432,15 @@ Candidates who have studied in Kannada Medium from 1st to 10th Std. in Karnataka
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="2700dp"
+                            android:layout_marginTop="2290dp"
                             android:paddingStart="15dp"
                             android:paddingBottom="15dp"
                             android:text="Note:
 The following documents should be produced, 'ONLY if applicable'."
-                            android:textColor="#000000"
+                            android:textColor="@color/colorRed"
 
-
-                            android:textSize="16dp"></TextView>
+                            android:textStyle="bold"
+                            android:textSize="14dp"></TextView>
                     </RelativeLayout>
 
 

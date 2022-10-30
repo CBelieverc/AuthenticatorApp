@@ -33,7 +33,7 @@
                 android:layout_alignParentStart="true"
                 android:fontFamily="@font/alike_angular"
                 android:gravity="center_vertical"
-                android:text="Hey there!,"
+                android:text="Hey there !"
                 android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -90,7 +90,6 @@
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -123,7 +122,6 @@
                         android:background="@drawable/border">
 
 
-
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -147,8 +145,7 @@
                             android:padding="20dp"
 
                             android:textAllCaps="true"
-                            android:textColor="@color/colorWhite"
-                            tools:ignore="SpeakableTextPresentCheck" />
+                            android:textColor="@color/colorWhite" />
 
 
                     </RelativeLayout>
@@ -161,16 +158,14 @@
                         android:layout_marginBottom="10dp"
                         android:src="@drawable/ranking" />
                 </RelativeLayout>
-
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
-
                     <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="30dp"
-                        android:background="@drawable/border">
+                        android:background="@drawable/border"
+                        android:layout_margin="30dp">
 
 
                         <TextView
@@ -195,8 +190,8 @@
                             android:background="#00ff0000"
                             android:padding="20dp"
                             android:textAllCaps="true"
-                            android:textColor="@color/colorWhite"
-                            tools:ignore="SpeakableTextPresentCheck" />
+                            android:textColor="@color/colorWhite" />
+
 
 
                     </RelativeLayout>
@@ -205,20 +200,19 @@
                         android:layout_width="75dp"
                         android:layout_height="85dp"
                         android:layout_marginLeft="230dp"
-                        android:layout_marginTop="28dp"
                         android:layout_marginBottom="10dp"
+                        android:layout_marginTop="28dp"
                         android:src="@drawable/school" />
                 </RelativeLayout>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
-
                     <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="30dp"
-                        android:background="@drawable/border">
+                        android:background="@drawable/border"
+                        android:layout_margin="30dp">
 
 
                         <TextView
@@ -243,8 +237,8 @@
                             android:background="#00ff0000"
                             android:padding="20dp"
                             android:textAllCaps="true"
-                            android:textColor="@color/colorWhite"
-                            tools:ignore="SpeakableTextPresentCheck" />
+                            android:textColor="@color/colorWhite" />
+
 
 
                     </RelativeLayout>
@@ -252,21 +246,19 @@
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:layout_marginLeft="225dp"
-                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="220dp"
                         android:layout_marginBottom="10dp"
+                        android:layout_marginTop="20dp"
                         android:src="@drawable/videos" />
                 </RelativeLayout>
-
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
-
                     <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="30dp"
-                        android:background="@drawable/border">
+                        android:background="@drawable/border"
+                        android:layout_margin="30dp">
 
 
                         <TextView
@@ -289,22 +281,18 @@
                         android:layout_width="75dp"
                         android:layout_height="85dp"
                         android:layout_marginLeft="240dp"
-                        android:layout_marginTop="28dp"
                         android:layout_marginBottom="10dp"
+                        android:layout_marginTop="28dp"
                         android:src="@drawable/exam" />
-
-
                 </RelativeLayout>
-
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
-
                     <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="30dp"
-                        android:background="@drawable/border">
+                        android:background="@drawable/border"
+                        android:layout_margin="30dp">
 
 
                         <TextView
@@ -312,9 +300,9 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/capriola"
                             android:padding="20dp"
-                            android:paddingStart="30dp"
                             android:text="MOck test"
                             android:textAllCaps="true"
+                            android:paddingStart="30dp"
                             android:textColor="@color/colorWhite"
                             android:textSize="25sp" />
 
@@ -329,26 +317,25 @@
                             android:textColor="@color/colorWhite" />
 
 
+
                     </RelativeLayout>
 
                     <ImageView
                         android:layout_width="75dp"
                         android:layout_height="75dp"
                         android:layout_marginLeft="240dp"
-                        android:layout_marginTop="28dp"
                         android:layout_marginBottom="10dp"
-                        android:src="@drawable/test" />
+                        android:src="@drawable/test"
+                        android:layout_marginTop="28dp"/>
                 </RelativeLayout>
-
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
-
                     <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="30dp"
-                        android:background="@drawable/border">
+                        android:background="@drawable/border"
+                        android:layout_margin="30dp">
 
 
                         <TextView
@@ -356,11 +343,10 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/capriola"
                             android:padding="10dp"
-                            android:paddingStart="30dp"
                             android:text="college
-
                     list"
                             android:textAllCaps="true"
+                            android:paddingStart="30dp"
                             android:textColor="@color/colorWhite"
                             android:textSize="25sp" />
 
@@ -379,44 +365,32 @@
                     </RelativeLayout>
 
                     <ImageView
-                        android:layout_width="140dp"
-                        android:layout_height="85dp"
+                        android:layout_width="120dp"
+                        android:layout_height="90dp"
                         android:layout_marginLeft="200dp"
                         android:layout_marginTop="28dp"
-                        android:layout_marginBottom="10dp"
+                        android:layout_marginBottom="15dp"
                         android:src="@drawable/fsfsd" />
                 </RelativeLayout>
-
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="180dp">
-
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp">
                     <RelativeLayout
                         android:layout_width="wrap_content"
-                        android:layout_height="80dp"
-                        android:layout_margin="30dp"
-                        android:background="@drawable/border">
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border"
+                        android:layout_margin="30dp">
 
 
                         <TextView
-                            android:layout_width="wrap_content"
+                            android:layout_width="225dp"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/capriola"
                             android:padding="10dp"
                             android:paddingStart="30dp"
-                            android:text="all about"
-                            android:textAllCaps="true"
-                            android:textColor="@color/colorWhite"
-                            android:textSize="25sp" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/capriola"
-                            android:padding="10dp"
-                            android:layout_marginTop="28dp"
-                            android:paddingStart="30dp"
-                            android:text="kcet exam"
+                            android:text="all about
+kcet exam"
                             android:textAllCaps="true"
                             android:textColor="@color/colorWhite"
                             android:textSize="25sp" />
@@ -448,9 +422,9 @@
                         android:layout_width="75dp"
                         android:layout_height="85dp"
                         android:layout_marginLeft="240dp"
-                        android:layout_marginTop="28dp"
                         android:layout_marginBottom="10dp"
-                        android:src="@drawable/documents" />
+                        android:src="@drawable/documents"
+                        android:layout_marginTop="28dp"/>
 
                 </RelativeLayout>
 

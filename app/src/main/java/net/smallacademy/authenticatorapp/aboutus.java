@@ -217,4 +217,10 @@ public class aboutus extends AppCompatActivity {
         unregisterReceiver(networkChangeList);
         super.onStop();
     }
+    @Override
+    public void onBackPressed() {
+        Intent intent=new Intent(getApplicationContext(),MainActivity2.class);
+        startActivity(intent);
+        finish();
+    }
 }

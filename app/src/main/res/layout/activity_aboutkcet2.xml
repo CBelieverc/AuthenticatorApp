@@ -111,7 +111,7 @@
             android:layout_alignParentEnd="true"
             android:layout_marginStart="182dp"
             android:layout_marginTop="12dp"
-            android:layout_marginEnd="63dp"
+            android:layout_marginEnd="66dp"
             android:drawableStart="@drawable/ic_web"
             android:drawablePadding="15dp"
             app:cardCornerRadius="20dp">
@@ -126,28 +126,30 @@
                 android:textSize="16sp" />
 
             <TextView
+                android:id="@+id/syllabus1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
-                android:layout_marginStart="28dp"
+                android:layout_marginStart="15dp"
                 android:layout_marginTop="99dp"
                 android:fontFamily="@font/aclonica"
-                android:paddingStart="10dp"
-                android:text="Exam"
-                android:textColor="@color/colorPrimary"
-                android:textSize="19sp" />
+                android:paddingStart="2dp"
+                android:text="1st Pu Syllabus"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="13sp" />
 
             <TextView
+                android:id="@+id/syllabus2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="124dp"
                 android:fontFamily="@font/aclonica"
-                android:paddingStart="10dp"
-                android:text="Syllabus"
-                android:textColor="@color/colorPrimary"
-                android:textSize="19sp" />
+                android:paddingStart="2dp"
+                android:text="2nd Pu Syllabus"
+                android:textColor="@color/Red"
+                android:textSize="13sp" />
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -204,8 +206,10 @@
             android:id="@+id/admission"
             android:layout_width="150dp"
             android:layout_height="156dp"
-            android:layout_marginStart="181dp"
-            android:layout_marginTop="208dp"
+            android:layout_below="@+id/syllabus"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="186dp"
+            android:layout_marginTop="41dp"
             android:layout_marginEnd="64dp"
             android:layout_marginBottom="238dp"
             android:drawableStart="@drawable/ic_web"
@@ -295,14 +299,16 @@
                 android:textColor="@color/colorPrimary"
                 android:textSize="19sp" />
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:id="@+id/aboutkcet"
             android:layout_width="150dp"
             android:layout_height="156dp"
-            android:layout_marginStart="181dp"
+            android:layout_marginStart="19dp"
             android:layout_marginTop="208dp"
             android:layout_marginEnd="64dp"
             android:layout_marginBottom="238dp"
+            android:layout_toEndOf="@+id/result"
             android:drawableStart="@drawable/ic_web"
             android:drawablePadding="15dp"
             app:cardCornerRadius="20dp">
@@ -343,7 +349,7 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/about"
-            android:layout_width="160dp"
+            android:layout_width="155dp"
             android:layout_height="156dp"
 
             android:layout_marginStart="185dp"
@@ -371,7 +377,7 @@
                 android:layout_marginTop="99dp"
                 android:fontFamily="@font/aclonica"
                 android:paddingStart="10dp"
-                android:text="Visit"
+                android:text="About"
                 android:textColor="@color/colorPrimary"
                 android:textSize="19sp" />
 
@@ -379,17 +385,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
-                android:layout_marginStart="25dp"
+                android:layout_marginStart="45dp"
                 android:layout_marginTop="124dp"
                 android:fontFamily="@font/aclonica"
                 android:paddingStart="10dp"
-                android:text="Website"
+                android:text="Kcet"
                 android:textColor="@color/colorPrimary"
                 android:textSize="19sp" />
         </androidx.cardview.widget.CardView>
-
-
-
 
 
     </RelativeLayout>

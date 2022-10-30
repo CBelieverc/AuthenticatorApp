@@ -42,7 +42,7 @@ tools:context=".subjects1">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/button_v1"
-        android:layout_width="160dp"
+        android:layout_width="155dp"
         android:layout_height="156dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
@@ -87,18 +87,18 @@ tools:context=".subjects1">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/button_v2"
-        android:layout_width="150dp"
+        android:layout_width="155dp"
         android:layout_height="156dp"
 
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="228dp"
+        android:layout_marginTop="200dp"
         android:drawableStart="@drawable/ic_web"
         android:drawablePadding="15dp"
         android:onClick="openactivity_v3"
         app:cardCornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="@+id/button_v3"
         app:layout_constraintEnd_toStartOf="@+id/button_v3"
-        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/relativeLayout3"
         app:layout_constraintVertical_bias="1.0">
@@ -129,7 +129,7 @@ tools:context=".subjects1">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/button_v3"
-        android:layout_width="160dp"
+        android:layout_width="155dp"
         android:layout_height="156dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
@@ -141,10 +141,10 @@ tools:context=".subjects1">
         app:cardCornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintHorizontal_bias="0.937"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.618">
+        app:layout_constraintVertical_bias="0.552">
 
         <ImageView
             android:layout_width="match_parent"
@@ -172,7 +172,7 @@ tools:context=".subjects1">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/button_v4"
-        android:layout_width="150dp"
+        android:layout_width="155dp"
         android:layout_height="156dp"
         android:layout_marginTop="24dp"
         android:drawableStart="@drawable/ic_web"

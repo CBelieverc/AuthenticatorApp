@@ -26,7 +26,7 @@ public class mocksplash extends AppCompatActivity {
          intent.putExtra("pdf_url111", url11);
          startActivity(intent);
          }
-         }, 1500);
+         }, 3000);
     }
     @Override
     protected void onStart() {

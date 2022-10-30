@@ -29,4 +29,5 @@ public class requiredDocuments extends AppCompatActivity {
         unregisterReceiver(networkChangeList);
         super.onStop();
     }
+
 }

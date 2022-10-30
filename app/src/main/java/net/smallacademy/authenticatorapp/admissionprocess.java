@@ -36,10 +36,11 @@ public class admissionprocess extends AppCompatActivity {
         schedule.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), details.class);
-                startActivity(intent);
-                overridePendingTransition(R.anim.slide_up, R.anim.slide_down);
-                finish();
+                Intent browser = new Intent(Intent.ACTION_VIEW, Uri.parse("https://cetonline.Karnataka.gov.in/kea/"));
+                startActivity(browser);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+
+
 
             }
         });
@@ -50,7 +51,7 @@ public class admissionprocess extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), requiredDocuments.class);
                 startActivity(intent);
                                 overridePendingTransition(R.anim.slide_up, R.anim.slide_down);
-                                finish();
+
 
             }
         });
@@ -61,7 +62,7 @@ public class admissionprocess extends AppCompatActivity {
                 Intent browser = new Intent(Intent.ACTION_VIEW, Uri.parse("https://cetonline.Karnataka.gov.in/kea/"));
                 startActivity(browser);
                                 overridePendingTransition(R.anim.slide_up, R.anim.slide_down);
-                                finish();
+
 
             }
         });
@@ -78,5 +79,9 @@ public class admissionprocess extends AppCompatActivity {
     protected void onStop() {
         unregisterReceiver(networkChangeList);
         super.onStop();
+    }
+    @Override
+    public void onBackPressed() {
+        finish();
     }
 }

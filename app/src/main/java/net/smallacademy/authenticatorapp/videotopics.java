@@ -1,5 +1,6 @@
 package net.smallacademy.authenticatorapp;
 
+import androidx.annotation.DrawableRes;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
@@ -12,6 +13,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class videotopics extends AppCompatActivity {
+    Button Border15;
     TextView textView,buttone1,buttone2,buttone3,buttone4;
     TextView button1,button2,button3,button4,button5,button6,button7,button8,button9,button10,button11,button12,button13,button14,button15;
     @Override
@@ -26,6 +28,7 @@ public class videotopics extends AppCompatActivity {
                 finish();
             }
         });
+
         textView=findViewById(R.id.heading);
         button1=findViewById(R.id.button_t1);
         button2=findViewById(R.id.button_t2);
@@ -84,6 +87,7 @@ public class videotopics extends AppCompatActivity {
 
         if(t12.contentEquals(" ")){
             buttone1.setText("");
+
         }
         if(t13.contentEquals(" ")){
             buttone2.setText("");

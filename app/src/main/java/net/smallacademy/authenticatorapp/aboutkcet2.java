@@ -17,12 +17,33 @@ import net.smallacademy.authenticatorapp.utility.NetworkChangeList;
 
 public class aboutkcet2 extends AppCompatActivity {
     NetworkChangeList networkChangeList = new NetworkChangeList();
+    TextView syllabus1,syllabus2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_aboutkcet2);
         ImageView back=findViewById(R.id.back5);
+        syllabus1=findViewById(R.id.syllabus1);
+        syllabus2=findViewById(R.id.syllabus2);
+
+        syllabus1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent browser = new Intent(Intent.ACTION_VIEW, Uri.parse("https://cache.careers360.mobi/media/uploads/froala_editor/files/kcet-syllabus-puc1.pdf"));
+                startActivity(browser);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+            }
+        });
+
+        syllabus2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent browser = new Intent(Intent.ACTION_VIEW, Uri.parse("https://cache.careers360.mobi/media/uploads/froala_editor/files/kcet-syllabus-puc2.pdf"));
+                startActivity(browser);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+            }
+        });
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

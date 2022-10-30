@@ -23,7 +23,6 @@ import android.widget.Toast;
 import net.smallacademy.authenticatorapp.utility.NetworkChangeList;
 
 public class webview extends AppCompatActivity {
-    NetworkChangeList networkChangeList = new NetworkChangeList();
 
 
     @Override
@@ -58,19 +57,7 @@ public class webview extends AppCompatActivity {
 
 
     }
-    @Override
-    protected void onStart() {
-        IntentFilter filter =new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
-        registerReceiver(networkChangeList,filter);
 
-        super.onStart();
-    }
-
-    @Override
-    protected void onStop() {
-        unregisterReceiver(networkChangeList);
-        super.onStop();
-    }
 
 
 

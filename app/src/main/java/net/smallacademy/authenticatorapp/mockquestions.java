@@ -234,7 +234,7 @@ public class mockquestions extends AppCompatActivity {
             questionList.add(new Question("  The area bounded by the line y = x, x-axis and ordinates x = –1 and x = 2 is ",Uri.parse("https://www.nitk.ac.in/"), "3/2", "5/2", "2", "3", "5/2"));
             questionList.add(new Question("  The solution of the differential equation x (dy / dx) – y = 3 represents a family of ",Uri.parse("https://www.nitk.ac.in/"), "straight lines", "circles", "parabolas", "ellipses", "straight lines"));
             questionList.add(new Question("  If a and b are mutually perpendicular unit vectors, then (3a + 2b) . (5a - 6b) =",Uri.parse("https://www.nitk.ac.in/"), "5", "3", "6", "12", "3"));
-           questionList.add(new Question("   The maximum area of a rectangle inscribed in the circle (x + 1)\u00b2 + (y – 3)\u00b2 = 64 is",Uri.parse("https://www.nitk.ac.in/"), "64 sq. units", "72 sq. units", "128 sq. units", "8 sq. units", "128 sq. units"));
+            questionList.add(new Question("   The maximum area of a rectangle inscribed in the circle (x + 1)\u00b2 + (y – 3)\u00b2 = 64 is",Uri.parse("https://www.nitk.ac.in/"), "64 sq. units", "72 sq. units", "128 sq. units", "8 sq. units", "128 sq. units"));
 
             setQuestion();
         }
@@ -309,8 +309,7 @@ public class mockquestions extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 counter = 36000;
-                Intent intent = new Intent(mockquestions.this, mocksubjects.class);
-                startActivity(intent);
+                gamewon();
             }
         });
 

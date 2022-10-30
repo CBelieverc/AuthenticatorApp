@@ -13,6 +13,7 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import net.smallacademy.authenticatorapp.utility.NetworkChangeList;
 
@@ -22,7 +23,7 @@ import java.util.Map;
 public class webview1 extends AppCompatActivity {
     NetworkChangeList networkChangeList = new NetworkChangeList();
 
-
+    TextView textView;
     private WebView webview;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,9 +39,16 @@ public class webview1 extends AppCompatActivity {
         });
         String URL = getIntent().getStringExtra("details_url");
         AdBlocker.init(this);
-
+        textView=findViewById(R.id.ignore);
         webview=(WebView)findViewById(R.id.webview1);
         webview.setWebViewClient(new MyBrowser());
+
+        textView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
 
         WebSettings webSettings = webview.getSettings();
         webSettings.setJavaScriptEnabled(true);

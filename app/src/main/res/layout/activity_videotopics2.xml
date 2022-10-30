@@ -45,7 +45,8 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectanle">
 
             <TextView
 
@@ -65,6 +66,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
                 android:gravity="center_vertical"
                 android:text="1st PUC Physics Topics"
                 android:textColor="@color/white"
@@ -73,9 +75,10 @@
         </RelativeLayout>
 
         <RelativeLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp">
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectanle">
 
             <TextView
                 android:id="@+id/button_ep3"
@@ -95,6 +98,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
                 android:gravity="center_vertical"
                 android:text="1st PUC Physics Topics"
                 android:textColor="@color/white"
@@ -106,9 +110,10 @@
         </RelativeLayout>
 
         <RelativeLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp">
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectanle">
 
             <TextView
                 android:id="@+id/button_ep1"
@@ -116,6 +121,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
                 android:gravity="center_vertical"
                 android:text="3)"
                 android:textColor="@color/white"
@@ -139,9 +145,10 @@
 
 
         <RelativeLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp">
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectanle">
 
             <TextView
                 android:id="@+id/button_ep2"
@@ -161,6 +168,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
                 android:gravity="center_vertical"
                 android:text="1st PUC Physics Topics"
                 android:textColor="@color/white"
