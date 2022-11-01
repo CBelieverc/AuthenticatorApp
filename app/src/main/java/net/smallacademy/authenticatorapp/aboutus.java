@@ -3,6 +3,7 @@ package net.smallacademy.authenticatorapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.ActivityNotFoundException;
+import android.content.ClipDescription;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
@@ -13,6 +14,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -106,6 +108,18 @@ public class aboutus extends AppCompatActivity {
             }
         });
 
+        LinearLayout email=findViewById(R.id.emailbtn);
+        email.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Intent.ACTION_SEND);
+                intent.setType(ClipDescription.MIMETYPE_TEXT_PLAIN);
+                intent.putExtra(Intent.EXTRA_EMAIL, new String[]{"edutech0302@gmail.com"});
+                intent.putExtra(android.content.Intent.EXTRA_SUBJECT,"How can we help you?");
+                startActivity(Intent.createChooser(intent,"Send Email"));
+            }
+        });
+
 
         telenext.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -128,8 +142,8 @@ public class aboutus extends AppCompatActivity {
             public void onClick(View view) {
                 Intent myIntent = new Intent(Intent.ACTION_SEND);
                 myIntent.setType("text/plain");
-                String body = "Your body here";
-                String sub = "Your Subject";
+                String body = "\nHey!there Check Out This Awesome App for KCET Preparation\nHey!there Check Out This Awesome App for KCET Preparation\n \nPrepare for K-CET with kcet Exam Guide which is a package of study materials, video lectures, colleges list , Mock tests. Predict your rank, free college predictor etc...  In one place\n \n It's ad free,\n \n download the app now";
+                String sub = "Prepare for K-CET with kcet Exam Guide which is a package of study materials, video lectures, colleges list , Mock tests. Predict your rank, free college predictor etc...  In one place It's ad free, download the app now";
                 myIntent.putExtra(Intent.EXTRA_SUBJECT,sub);
                 myIntent.putExtra(Intent.EXTRA_TEXT,body);
                 startActivity(Intent.createChooser(myIntent, "Share Using"));
@@ -143,8 +157,8 @@ public class aboutus extends AppCompatActivity {
             public void onClick(View view) {
                 Intent myIntent = new Intent(Intent.ACTION_SEND);
                 myIntent.setType("text/plain");
-                String body = "Hey!there w";
-                String sub = "Your Subject";
+                String body = "\nHey!there Check Out This Awesome App for KCET Preparation\nHey!there Check Out This Awesome App for KCET Preparation\n \nPrepare for K-CET with kcet Exam Guide which is a package of study materials, video lectures, colleges list , Mock tests. Predict your rank, free college predictor etc...  In one place\n \n It's ad free,\n \n download the app now";
+                String sub = "Prepare for K-CET with kcet Exam Guide which is a package of study materials, video lectures, colleges list , Mock tests. Predict your rank, free college predictor etc...  In one place It's ad free, download the app now";
                 myIntent.putExtra(Intent.EXTRA_SUBJECT,sub);
                 myIntent.putExtra(Intent.EXTRA_TEXT,body);
                 startActivity(Intent.createChooser(myIntent, "Share Using"));

@@ -108,7 +108,7 @@ public class introActivity extends AppCompatActivity {
         linearDots.removeAllViews();
         for(int k = 0; k < dots.length; k += 1 ) {
             dots[k] = new TextView(this);
-            dots[k].setText(Html.fromHtml("& #8226; "));
+            dots[k].setText(Html.fromHtml("&#8226;"));
             dots[k].setTextColor(inactiveColors[currentPage]);
             linearDots.addView(dots[k]);}
         if (dots.length>0){

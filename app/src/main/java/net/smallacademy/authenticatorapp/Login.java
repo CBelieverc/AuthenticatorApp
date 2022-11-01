@@ -80,7 +80,7 @@ public class Login extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
                             Toast.makeText(Login.this, "Logged in Successfully", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(getApplicationContext(),SplashActivity.class));
+                            startActivity(new Intent(getApplicationContext(),introActivity.class));
                                             overridePendingTransition(R.anim.slide_up, R.anim.slide_down);
 
 

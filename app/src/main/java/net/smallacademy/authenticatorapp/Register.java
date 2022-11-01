@@ -35,6 +35,7 @@ public class Register extends AppCompatActivity {
     NetworkChangeList networkChangeList = new NetworkChangeList();
     public static final String TAG = "TAG";
     EditText mFullName,mEmail,mPassword,mPhone;
+    private long pressedTime;
     Button mRegisterBtn;
     TextView mLoginBtn;
     FirebaseAuth fAuth;
@@ -130,7 +131,7 @@ public class Register extends AppCompatActivity {
                                     Log.d(TAG, "onFailure: " + e.toString());
                                 }
                             });
-                            startActivity(new Intent(getApplicationContext(),SplashActivity.class));
+                            startActivity(new Intent(getApplicationContext(),introActivity.class));
 
                         }else {
                             Toast.makeText(Register.this, "Error ! " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
@@ -164,6 +165,20 @@ public class Register extends AppCompatActivity {
     protected void onStop() {
         unregisterReceiver(networkChangeList);
         super.onStop();
+    }
+
+    @Override
+    public void onBackPressed() {
+
+        if (pressedTime + 2000 > System.currentTimeMillis()) {
+            super.onBackPressed();
+            finishAffinity();
+            System.exit(0);
+            finish();
+        } else {
+            Toast.makeText(getBaseContext(), "Press back again to exit", Toast.LENGTH_SHORT).show();
+        }
+        pressedTime = System.currentTimeMillis();
     }
 
 }

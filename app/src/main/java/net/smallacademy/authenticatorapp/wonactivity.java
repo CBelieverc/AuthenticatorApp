@@ -80,7 +80,7 @@ public class wonactivity extends AppCompatActivity {
                     Intent shareIntent = new Intent(Intent.ACTION_SEND);
                     shareIntent.setType("text/plain");
                     shareIntent.putExtra(Intent.EXTRA_SUBJECT, "My Application Name");
-                    String shareMessage = "\nlet me recommend you this application\n\n";
+                    String shareMessage = "\nHey!there Check Out This Awesome App for KCET Preparation\n \nPrepare for K-CET with kcet Exam Guide which is a package of study materials, video lectures, colleges list , Mock tests. Predict your rank, free college predictor etc...  In one place\n \n It's ad free,\n \n download the app now";
                     shareIntent.putExtra(Intent.EXTRA_TEXT, shareMessage);
                     startActivity(Intent.createChooser(shareIntent, "choose one"));
                 }catch(Exception e) {
