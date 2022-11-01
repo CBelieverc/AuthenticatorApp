@@ -71,7 +71,7 @@ public class videotopics2 extends AppCompatActivity {
                 }
                 if (m11.contentEquals("Maths_1_2")) {
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
-                    intent1.putExtra("video_id", "GwlABazzoZw");
+                    intent1.putExtra("video_id", "FjbHqOq6JOc");
                     startActivity(intent1);
                     finish();
                 }
@@ -805,7 +805,7 @@ public class videotopics2 extends AppCompatActivity {
                 }
                 if (m11.contentEquals("Maths_1_2")) {
                     Intent intent1 = new Intent(getApplicationContext(), YoutubePlayer.class);
-                    intent1.putExtra("video_id", "W2TxW1hMBoM");
+                    intent1.putExtra("video_id", "OXkTE4twFgo");
                     startActivity(intent1);
                     finish();
                 }

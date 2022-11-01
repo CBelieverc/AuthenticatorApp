@@ -25,7 +25,7 @@ public class YoutubePlayer extends AppCompatActivity {
         setContentView(R.layout.activity_youtube_player);
 
 
-        Toast.makeText(this, "Rotate Your Phone For Best Experience ", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, "Rotate Your Phone For Best Experience ", Toast.LENGTH_SHORT).show();
 
 
         YouTubePlayerView youTubePlayerView = findViewById(R.id.youtube_player_view);

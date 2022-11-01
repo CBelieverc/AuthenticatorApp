@@ -46,7 +46,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/rectanle">
+            >
 
             <TextView
 
@@ -77,8 +77,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/rectanle">
+            >
 
             <TextView
                 android:id="@+id/button_ep3"
@@ -112,8 +111,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/rectanle">
+            >
 
             <TextView
                 android:id="@+id/button_ep1"
@@ -146,9 +144,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/rectanle">
+            android:layout_height="wrap_content">
 
             <TextView
                 android:id="@+id/button_ep2"
