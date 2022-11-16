@@ -63,7 +63,7 @@
             android:layout_height="wrap_content"
             android:textColor="@color/white"
 
-            android:text="KCET Complete guide"
+            android:text="NEET Exam guide"
             android:textSize="28dp"
             android:textStyle="bold"/>
 

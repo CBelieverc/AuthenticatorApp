@@ -82,7 +82,7 @@ public class webview1 extends AppCompatActivity {
     public void onBackPressed() {
 
         if (webview.canGoBack()) {
-            webview.goBack();
+            webview.destroy();
         } else {
             super.onBackPressed();
         }

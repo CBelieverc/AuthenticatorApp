@@ -34,22 +34,22 @@ public class subjects1 extends AppCompatActivity {
     }
 
     public void openactivity_v1(View view){
-        Intent intent = new Intent(this, puc.class);
+        Intent intent = new Intent(this, course_select.class);
         intent.putExtra("subject1","Mathematics");
         startActivity(intent);
     }
     public void openactivity_v2(View view){
-        Intent intent = new Intent(this, puc.class);
+        Intent intent = new Intent(this, course_select.class);
         intent.putExtra("subject1","Physics");
         startActivity(intent);
     }
     public void openactivity_v3(View view){
-        Intent intent = new Intent(this, puc.class);
+        Intent intent = new Intent(this, course_select.class);
         intent.putExtra("subject1","Chemistry");
         startActivity(intent);
     }
     public void openactivity_v4(View view){
-        Intent intent = new Intent(this, puc.class);
+        Intent intent = new Intent(this, course_select.class);
         intent.putExtra("subject1","Biology");
         startActivity(intent);
     }

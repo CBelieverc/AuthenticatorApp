@@ -15,7 +15,7 @@ public class aboutkcet_view extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_aboutkcet_view);
         WebView webView=findViewById(R.id.webview1);
-        webView.loadUrl("file:///android_asset/aboutkcet.html");
+        webView.loadUrl("file:///android_asset/NEET_Exam.html");
         ImageView bac=findViewById(R.id.back67);
         bac.setOnClickListener(new View.OnClickListener() {
             @Override

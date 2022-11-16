@@ -142,7 +142,7 @@ public class aboutus extends AppCompatActivity {
             public void onClick(View view) {
                 Intent myIntent = new Intent(Intent.ACTION_SEND);
                 myIntent.setType("text/plain");
-                String body = "\nHey!there Check Out This Awesome App for KCET Preparation\nHey!there Check Out This Awesome App for KCET Preparation\n \nPrepare for K-CET with kcet Exam Guide which is a package of study materials, video lectures, colleges list , Mock tests. Predict your rank, free college predictor etc...  In one place\n \n It's ad free,\n \n download the app now";
+                String body = "\nHey!there Check Out This Awesome App for NEET Preparation\n \nPrepare for NEET with NEET Exam Guide which is a package of study materials, video lectures, colleges list , Mock tests. Predict your rank, free college predictor etc...  In one place\n \n It's ad free,\n \n download the app now";
                 String sub = "Prepare for K-CET with kcet Exam Guide which is a package of study materials, video lectures, colleges list , Mock tests. Predict your rank, free college predictor etc...  In one place It's ad free, download the app now";
                 myIntent.putExtra(Intent.EXTRA_SUBJECT,sub);
                 myIntent.putExtra(Intent.EXTRA_TEXT,body);
@@ -157,7 +157,7 @@ public class aboutus extends AppCompatActivity {
             public void onClick(View view) {
                 Intent myIntent = new Intent(Intent.ACTION_SEND);
                 myIntent.setType("text/plain");
-                String body = "\nHey!there Check Out This Awesome App for KCET Preparation\nHey!there Check Out This Awesome App for KCET Preparation\n \nPrepare for K-CET with kcet Exam Guide which is a package of study materials, video lectures, colleges list , Mock tests. Predict your rank, free college predictor etc...  In one place\n \n It's ad free,\n \n download the app now";
+                String body = "\nHey!there Check Out This Awesome App for KCET Preparation\n \nPrepare for NEET with NEET Exam Guide which is a package of study materials, video lectures, colleges list , Mock tests. Predict your rank, free college predictor etc...  In one place\n \n It's ad free,\n \n download the app now";
                 String sub = "Prepare for K-CET with kcet Exam Guide which is a package of study materials, video lectures, colleges list , Mock tests. Predict your rank, free college predictor etc...  In one place It's ad free, download the app now";
                 myIntent.putExtra(Intent.EXTRA_SUBJECT,sub);
                 myIntent.putExtra(Intent.EXTRA_TEXT,body);

@@ -50,7 +50,7 @@ public class predictor extends AppCompatActivity {
         WebSettings webSettings = webview.getSettings();
         webSettings.setJavaScriptEnabled(true);
 
-        webview.loadUrl("https://www.inspirenignite.com/kcet-cutoff-closing-ranks-and-college-predictor/");
+        webview.loadUrl("https://collegestack.in/college_predictor_neetug_2022/?utm_source=c2&vt_keyword=neet%20rank%20predictor&gclid=Cj0KCQjwqoibBhDUARIsAH2OpWi6huPIbfe9wGx2yUJ74WM7GQZML6eid3NTRx2d2ibwVVSyNlEaY0YaAk0JEALw_wcB");
 
     }
     class MyBrowser extends WebViewClient {

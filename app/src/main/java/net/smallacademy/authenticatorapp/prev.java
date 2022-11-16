@@ -37,54 +37,39 @@ public class prev extends AppCompatActivity {
     public void openactivity22(View view){
         //Toast.makeText(this, "button is clicked", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(this, subjects.class);
-        intent.putExtra("pdf_url1","https://images.collegedunia.com/public/image/0476cee18626a1c12c4fdc3fbebf3549.pdf");
-        intent.putExtra("pdf_url2","https://images.collegedunia.com/public/image/2ec69eed6e07bc1f7604276294afa081.pdf");
-        intent.putExtra("pdf_url3","https://images.collegedunia.com/public/image/58ec63cc8816d69013830a8ea1713fa3.pdf");
-        intent.putExtra("pdf_url4","https://images.collegedunia.com/public/image/44fbf8790de2b2e61306517819e74f43.pdf");
-        intent.putExtra("pdf_url5","http://www.africau.edu/images/default/sample.pdf");
+        intent.putExtra("pdf_url1","https://images.collegedunia.com/public/image/870c68f3dab55d21a65554a65bd626a8.pdf");
+        intent.putExtra("pdf_url5","https://images.collegedunia.com/public/image/83c3b7e9965eacf07839a4930125b058.pdf");
         startActivity(intent);
     }
     //2021 year paper
     public void openactivity21(View view){
         Intent intent = new Intent(this, subjects.class);
-        intent.putExtra("pdf_url1","https://www.careerindia.com/entrance-exam/kcet-mathematics-question-paper-2021-2000.pdf");
-        intent.putExtra("pdf_url2","https://www.careerindia.com/entrance-exam/kcet-physics-question-paper-2021-1998.pdf");
-        intent.putExtra("pdf_url3","https://www.careerindia.com/entrance-exam/kcet-chemistry-question-paper-2021-1999.pdf");
-        intent.putExtra("pdf_url4","https://www.careerindia.com/entrance-exam/kcet-biology-question-paper-2021-2001.pdf");
-        intent.putExtra("pdf_url5","http://kea.kar.nic.in/ans_2021.pdf");
+        intent.putExtra("pdf_url1","https://images.collegedunia.com/public/image/d05b435a74ba9fcc58d9bb29de77ac5f.pdf");
+        intent.putExtra("pdf_url5","https://images.collegedunia.com/public/image/4fbff5e12ef98f1adfc1a29808fc6767.pdf");
         startActivity(intent);
     }
 
     //2020 year paper
     public void openactivity20(View view){
         Intent intent = new Intent(this, subjects.class);
-        intent.putExtra("pdf_url1","https://www.careerindia.com/entrance-exam/kcet-mathematics-question-paper-2020-1678.pdf");
-        intent.putExtra("pdf_url2","https://www.careerindia.com/entrance-exam/kcet-physics-question-paper-2020-1681.pdf");
-        intent.putExtra("pdf_url3","https://www.careerindia.com/entrance-exam/kcet-chemistry-question-paper-2020-1680.pdf");
-        intent.putExtra("pdf_url4","https://www.careerindia.com/entrance-exam/kcet-biology-question-paper-2020-1679.pdf");
-        intent.putExtra("pdf_url5","http://kea.kar.nic.in/ans_2020.pdf");
+        intent.putExtra("pdf_url1","http://images.collegedunia.com/public/image/96d1ad38553c29bf6f7fdc3614ec50c7.pdf");
+        intent.putExtra("pdf_url5","https://images.collegedunia.com/public/image/83daefc0bf9aff367dc23620269db7e5.pdf");
         startActivity(intent);
     }
 
     //2019 year paper
     public void openactivity19(View view){
         Intent intent = new Intent(this, subjects.class);
-        intent.putExtra("pdf_url1","https://www.careerindia.com/entrance-exam/kcet-mathematics-question-paper-2019-1482.pdf");
-        intent.putExtra("pdf_url2","https://www.careerindia.com/entrance-exam/kcet-physics-question-paper-2019-1477.pdf");
-        intent.putExtra("pdf_url3","https://www.careerindia.com/entrance-exam/kcet-chemistry-question-paper-2019-1480.pdf");
-        intent.putExtra("pdf_url4","https://www.careerindia.com/entrance-exam/kcet-biology-question-paper-2019-1489.pdf");
-        intent.putExtra("pdf_url5","http://kea.kar.nic.in/ans_2019.pdf");
+        intent.putExtra("pdf_url1","http://images.collegedunia.com/public/image/ee95a281f2880d61e21f5501220b7e32.pdf");
+        intent.putExtra("pdf_url5","http://images.collegedunia.com/public/image/629d93ddc5cb9abb5b389fb22762fe57.pdf");
         startActivity(intent);
     }
 
     //2018 year paper
     public void openactivity18(View view){
         Intent intent = new Intent(this, subjects.class);
-        intent.putExtra("pdf_url1","https://www.careerindia.com/entrance-exam/kcet-mathematics-question-paper-2018-762.pdf");
-        intent.putExtra("pdf_url2","https://www.careerindia.com/entrance-exam/kcet-physics-question-paper-2018-758.pdf");
-        intent.putExtra("pdf_url3","https://www.careerindia.com/entrance-exam/kcet-chemistry-question-paper-2018-760.pdf");
-        intent.putExtra("pdf_url4","https://www.careerindia.com/entrance-exam/kcet-biology-question-paper-2018-764.pdf");
-        intent.putExtra("pdf_url5","http://kea.kar.nic.in/ans_2018.pdf");
+        intent.putExtra("pdf_url1","http://images.collegedunia.com/public/image/0d1112f8d19bc6383701aa0814fbb1b8.pdf");
+        intent.putExtra("pdf_url5","https://images.collegedunia.com/public/image/5e01112bf9d36f87bffb1462938f8cc9.pdf");
         startActivity(intent);
     }
 
@@ -92,10 +77,7 @@ public class prev extends AppCompatActivity {
     //2017 year paper
     public void openactivity17(View view){
         Intent intent = new Intent(this, subjects.class);
-        intent.putExtra("pdf_url1","https://www.careerindia.com/entrance-exam/kcet-mathematics-2017-418.pdf");
-        intent.putExtra("pdf_url2","https://www.careerindia.com/entrance-exam/kcet-physics-2017-416.pdf");
-        intent.putExtra("pdf_url3","https://www.careerindia.com/entrance-exam/kcet-chemistry-2017-417.pdf");
-        intent.putExtra("pdf_url4","https://www.careerindia.com/entrance-exam/kcet-biology-2017-419.pdf");
+        intent.putExtra("pdf_url1","https://images.collegedunia.com/public/image/869468a771cc20748b500c205ff8ca2c.pdf");
         intent.putExtra("pdf_url5","http://kea.kar.nic.in/ans_2017.pdf");
         startActivity(intent);
     }
@@ -104,10 +86,7 @@ public class prev extends AppCompatActivity {
     public void openactivity16(View view){
         //Toast.makeText(this, "button is clicked", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(this, subjects.class);
-        intent.putExtra("pdf_url1","https://www.careerindia.com/entrance-exam/kcet-mathematics-2016-383.pdf");
-        intent.putExtra("pdf_url2","https://www.careerindia.com/entrance-exam/kcet-physics-2016-354.pdf");
-        intent.putExtra("pdf_url3","https://www.careerindia.com/entrance-exam/kcet-chemistry-2016-366.pdf");
-        intent.putExtra("pdf_url4","https://www.careerindia.com/entrance-exam/kcet-biology-2016-397.pdf");
+        intent.putExtra("pdf_url1","https://images.collegedunia.com/public/image/933897e0b2f3b18be0f51bec852e6525.pdf");
         intent.putExtra("pdf_url5","http://kea.kar.nic.in/ans_2016.pdf");
         startActivity(intent);
     }
@@ -115,10 +94,7 @@ public class prev extends AppCompatActivity {
     //2015 year paper
     public void openactivity15(View view){
         Intent intent = new Intent(this, subjects.class);
-        intent.putExtra("pdf_url1","https://www.careerindia.com/entrance-exam/kcet-mathematics-2015-382.pdf");
-        intent.putExtra("pdf_url2","https://www.careerindia.com/entrance-exam/kcet-physics-2015-353.pdf");
-        intent.putExtra("pdf_url3","https://www.careerindia.com/entrance-exam/kcet-chemistry-2015-365.pdf");
-        intent.putExtra("pdf_url4","https://www.careerindia.com/entrance-exam/kcet-biology-2015-396.pdf");
+        intent.putExtra("pdf_url1","https://images.collegedunia.com/public/image/e36649429c3b669d0a9d64aa5c969e8b.pdf");
         intent.putExtra("pdf_url5","http://kea.kar.nic.in/ans_2015.pdf");
         startActivity(intent);
     }
@@ -126,10 +102,7 @@ public class prev extends AppCompatActivity {
     //2014 year paper
     public void openactivity14(View view){
         Intent intent = new Intent(this, subjects.class);
-        intent.putExtra("pdf_url1","https://www.careerindia.com/entrance-exam/kcet-mathematics-2014-381.pdf");
-        intent.putExtra("pdf_url2","https://www.careerindia.com/entrance-exam/kcet-physics-2014-352.pdf");
-        intent.putExtra("pdf_url3","https://www.careerindia.com/entrance-exam/kcet-chemistry-2014-364.pdf");
-        intent.putExtra("pdf_url4","https://www.careerindia.com/entrance-exam/kcet-biology-2014-395.pdf");
+        intent.putExtra("pdf_url1","https://collegedunia.com/news/e-457-neet-2014-question-paper-with-answer-key-pdfs");
         intent.putExtra("pdf_url5","https://www.careerindia.com/entrance-exam/kcet-all-subjects-key-answers-2014-407.pdf");
         startActivity(intent);
     }
@@ -137,10 +110,7 @@ public class prev extends AppCompatActivity {
     //2013 year paper
     public void openactivity13(View view){
         Intent intent = new Intent(this, subjects.class);
-        intent.putExtra("pdf_url1","https://www.careerindia.com/entrance-exam/kcet-mathematics-2013-380.pdf");
-        intent.putExtra("pdf_url2","https://www.careerindia.com/entrance-exam/kcet-physics-2013-351.pdf");
-        intent.putExtra("pdf_url3","https://www.careerindia.com/entrance-exam/kcet-chemistry-2013-363.pdf");
-        intent.putExtra("pdf_url4","https://www.careerindia.com/entrance-exam/kcet-biology-2013-394.pdf");
+        intent.putExtra("pdf_url1","https://collegedunia.com/news/e-457-neet-2013-question-paper-with-answer-key-pdfs");
         intent.putExtra("pdf_url5","https://www.careerindia.com/entrance-exam/kcet-all-subjects-key-answers-2013-406.pdf");
         startActivity(intent);
     }
@@ -148,10 +118,7 @@ public class prev extends AppCompatActivity {
     //2012 year paper
     public void openactivity12(View view){
         Intent intent = new Intent(this, subjects.class);
-        intent.putExtra("pdf_url1","https://www.careerindia.com/entrance-exam/kcet-mathematics-2012-379.pdf");
-        intent.putExtra("pdf_url2","https://www.careerindia.com/entrance-exam/kcet-physics-2012-350.pdf");
-        intent.putExtra("pdf_url3","https://www.careerindia.com/entrance-exam/kcet-chemistry-2012-362.pdf");
-        intent.putExtra("pdf_url4","https://www.careerindia.com/entrance-exam/kcet-biology-2012-393.pdf");
+        intent.putExtra("pdf_url1","https://collegedunia.com/news/e-457-neet-2012-question-paper-with-answer-key-pdfs");
         intent.putExtra("pdf_url5","https://www.careerindia.com/entrance-exam/kcet-all-subjects-key-answers-2012-405.pdf");
         startActivity(intent);
     }
@@ -159,10 +126,7 @@ public class prev extends AppCompatActivity {
     //2011 year paper
     public void openactivity11(View view){
         Intent intent = new Intent(this, subjects.class);
-        intent.putExtra("pdf_url1","https://down.inyatrust.com/uploads/7/5/2/9/7529832/2011matwww.inyatrust.com.pdf");
-        intent.putExtra("pdf_url2","https://www.careerindia.com/entrance-exam/kcet-physics-2011-348.pdf");
-        intent.putExtra("pdf_url3","https://www.careerindia.com/entrance-exam/kcet-chemistry-2011-361.pdf");
-        intent.putExtra("pdf_url4","https://www.careerindia.com/entrance-exam/kcet-biology-2011-392.pdf");
+        intent.putExtra("pdf_url1","https://drive.google.com/file/d/0B0I4YfZLhvamOFF6a3plR0xMRmM/view?usp=sharing&resourcekey=0-phDqKg6SrHh3vv5HeOraVQ");
         intent.putExtra("pdf_url5","https://www.careerindia.com/entrance-exam/kcet-all-subjects-key-answers-2011-404.pdf");
         startActivity(intent);
     }
@@ -170,10 +134,7 @@ public class prev extends AppCompatActivity {
     //2010 year paper
     public void openactivity10(View view){
         Intent intent = new Intent(this, subjects.class);
-        intent.putExtra("pdf_url1","https://www.careerindia.com/entrance-exam/kcet-mathematics-2010-377.pdf");
-        intent.putExtra("pdf_url2","https://www.careerindia.com/entrance-exam/kcet-physics-2010-347.pdf");
-        intent.putExtra("pdf_url3","https://www.careerindia.com/entrance-exam/kcet-chemistry-2010-360.pdf");
-        intent.putExtra("pdf_url4","https://www.careerindia.com/entrance-exam/kcet-biology-2010-390.pdf");
+        intent.putExtra("pdf_url1","https://drive.google.com/file/d/0B0I4YfZLhvamS3JHSFB4X2poTVU/view?usp=sharing&resourcekey=0-7AmkNkZgJrVYbjAsb2-cVA");
         intent.putExtra("pdf_url5","https://www.careerindia.com/entrance-exam/kcet-all-subjects-key-answers-2010-403.pdf");
         startActivity(intent);
     }
@@ -181,10 +142,7 @@ public class prev extends AppCompatActivity {
     //2009 year paper
     public void openactivity09(View view){
         Intent intent = new Intent(this, subjects.class);
-        intent.putExtra("pdf_url1","https://www.careerindia.com/entrance-exam/kcet-mathematics-2009-376.pdf");
-        intent.putExtra("pdf_url2","https://www.careerindia.com/entrance-exam/kcet-physics-2009-346.pdf");
-        intent.putExtra("pdf_url3","https://www.careerindia.com/entrance-exam/kcet-chemistry-2009-359.pdf");
-        intent.putExtra("pdf_url4","https://www.careerindia.com/entrance-exam/kcet-biology-2009-389.pdf");
+        intent.putExtra("pdf_url1","https://collegedunia.com/news/e-457-neet-2009-question-paper-with-answer-key-pdfs");
         intent.putExtra("pdf_url5","https://cdn.tardigrade.in/file/exam/kcet-2009-answer-key.pdf");
         startActivity(intent);
     }
@@ -193,10 +151,7 @@ public class prev extends AppCompatActivity {
     public void openactivity08(View view){
         //Toast.makeText(this, "button is clicked", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(this, subjects.class);
-        intent.putExtra("pdf_url1","https://www.careerindia.com/entrance-exam/kcet-mathematics-2008-375.pdf");
-        intent.putExtra("pdf_url2","https://www.careerindia.com/entrance-exam/kcet-physics-chemistry-2008-345.pdf");
-        intent.putExtra("pdf_url3","https://www.careerindia.com/entrance-exam/kcet-physics-chemistry-2008-345.pdf");
-        intent.putExtra("pdf_url4","https://www.careerindia.com/entrance-exam/kcet-biology-2008-388.pdf");
+        intent.putExtra("pdf_url1","https://collegedunia.com/news/e-457-neet-2008-question-paper-with-answer-key-pdfs");
         intent.putExtra("pdf_url5","https://www.careerindia.com/entrance-exam/kcet-all-subjects-key-answers-2008-402.pdf");
         startActivity(intent);
     }
@@ -204,10 +159,7 @@ public class prev extends AppCompatActivity {
     //2007 year paper
     public void openactivity07(View view){
         Intent intent = new Intent(this, subjects.class);
-        intent.putExtra("pdf_url1","https://www.careerindia.com/entrance-exam/kcet-mathematics-2007-374.pdf");
-        intent.putExtra("pdf_url2","https://www.careerindia.com/entrance-exam/kcet-physics-chemistry-2007-344.pdf");
-        intent.putExtra("pdf_url3","https://www.careerindia.com/entrance-exam/kcet-physics-chemistry-2007-344.pdf");
-        intent.putExtra("pdf_url4","https://www.careerindia.com/entrance-exam/kcet-biology-2007-387.pdf");
+        intent.putExtra("pdf_url1","https://collegedunia.com/news/e-457-neet-2007-question-paper-with-answer-key-pdfs");
         intent.putExtra("pdf_url5","https://www.careerindia.com/entrance-exam/kcet-all-subjects-key-answers-2007-401.pdf");
         startActivity(intent);
     }
@@ -215,10 +167,7 @@ public class prev extends AppCompatActivity {
     //2006 year paper
     public void openactivity06(View view){
         Intent intent = new Intent(this, subjects.class);
-        intent.putExtra("pdf_url1","https://www.careerindia.com/entrance-exam/kcet-mathematics-2006-373.pdf");
-        intent.putExtra("pdf_url2","https://www.careerindia.com/entrance-exam/kcet-physics-2006-343.pdf");
-        intent.putExtra("pdf_url3","https://www.careerindia.com/entrance-exam/kcet-chemistry-2006-357.pdf");
-        intent.putExtra("pdf_url4","https://www.careerindia.com/entrance-exam/kcet-biology-2006-386.pdf");
+        intent.putExtra("pdf_url1","https://drive.google.com/file/d/0B0I4YfZLhvamMG5vVk4xTDRWeXc/view?usp=sharing&resourcekey=0-hQN39i8t_LTzWiPuRBHCoA");
         intent.putExtra("pdf_url5","https://www.careerindia.com/entrance-exam/kcet-all-subjects-key-answers-2006-400.pdf");
         startActivity(intent);
     }
@@ -226,10 +175,7 @@ public class prev extends AppCompatActivity {
     //2005 year paper
     public void openactivity05(View view){
         Intent intent = new Intent(this, subjects.class);
-        intent.putExtra("pdf_url1","https://www.careerindia.com/entrance-exam/kcet-mathematics-2005-372.pdf");
-        intent.putExtra("pdf_url2","https://www.careerindia.com/entrance-exam/kcet-physics-2005-342.pdf");
-        intent.putExtra("pdf_url3","https://www.careerindia.com/entrance-exam/kcet-chemistry-2005-356.pdf");
-        intent.putExtra("pdf_url4","https://www.careerindia.com/entrance-exam/kcet-biology-2005-385.pdf");
+        intent.putExtra("pdf_url1","https://drive.google.com/file/d/0B0I4YfZLhvamZWV0ZHlJN1BlRmc/view?usp=sharing&resourcekey=0-9KqCLvcAnT0ymHMvicwbGg");
         intent.putExtra("pdf_url5","https://www.careerindia.com/entrance-exam/kcet-all-subjects-key-answers-2005-399.pdf");
         startActivity(intent);
     }
@@ -238,9 +184,6 @@ public class prev extends AppCompatActivity {
     public void openactivity04(View view){
         Intent intent = new Intent(this, subjects.class);
         intent.putExtra("pdf_url1","https://www.careerindia.com/entrance-exam/kcet-mathematics-2004-371.pdf");
-        intent.putExtra("pdf_url2","https://www.careerindia.com/entrance-exam/kcet-physics-2004-341.pdf");
-        intent.putExtra("pdf_url3","https://www.careerindia.com/entrance-exam/kcet-chemistry-2004-355.pdf");
-        intent.putExtra("pdf_url4","https://www.careerindia.com/entrance-exam/kcet-biology-2004-384.pdf");
         intent.putExtra("pdf_url5","https://www.careerindia.com/entrance-exam/kcet-all-subjects-key-answers-2004-398.pdf");
         startActivity(intent);
     }

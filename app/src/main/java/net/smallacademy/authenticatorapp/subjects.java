@@ -29,7 +29,7 @@ public class subjects extends AppCompatActivity {
             }
         });
 
-        //Mathematics
+        //Question Paper
         CardView button22 = findViewById(R.id.button22);
         button22.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,41 +41,7 @@ public class subjects extends AppCompatActivity {
             }
         });
 
-        //PHYSICS
-        CardView button23 = findViewById(R.id.button23);
-        button23.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String url2 = getIntent().getStringExtra("pdf_url2");
-                Intent intent = new Intent(getApplicationContext(), webview.class);
-                intent.putExtra("pdf_url",url2);
-                startActivity(intent);
-            }
-        });
 
-        //CHEMMISTRY
-        CardView button24 = findViewById(R.id.button24);
-        button24.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String url3 = getIntent().getStringExtra("pdf_url3");
-                Intent intent = new Intent(getApplicationContext(), webview.class);
-                intent.putExtra("pdf_url",url3);
-                startActivity(intent);
-            }
-        });
-
-        //BIOLOGY
-        CardView button25 = findViewById(R.id.button25);
-        button25.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String url4 = getIntent().getStringExtra("pdf_url4");
-                Intent intent = new Intent(getApplicationContext(), webview.class);
-                intent.putExtra("pdf_url",url4);
-                startActivity(intent);
-            }
-        });
 
         //KEY ANSWERS
         Button button26 = findViewById(R.id.button26);

@@ -3,15 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/KCET-COMPLETE-GUIDE_final/app/src/main/res/drawable/animation.xml" value="0.15" />
         <entry key="..\:/KCET-COMPLETE-GUIDE_final/app/src/main/res/layout/activity_aboutkcet2.xml" value="0.22826086956521738" />
         <entry key="..\:/KCET-COMPLETE-GUIDE_final/app/src/main/res/layout/activity_aboutus.xml" value="0.22826086956521738" />
         <entry key="..\:/KCET-COMPLETE-GUIDE_final/app/src/main/res/layout/activity_admissionprocess.xml" value="0.22826086956521738" />
+        <entry key="..\:/KCET-COMPLETE-GUIDE_final/app/src/main/res/layout/activity_course_select.xml" value="0.22826086956521738" />
+        <entry key="..\:/KCET-COMPLETE-GUIDE_final/app/src/main/res/layout/activity_drawer_base.xml" value="0.22826086956521738" />
+        <entry key="..\:/KCET-COMPLETE-GUIDE_final/app/src/main/res/layout/activity_edit_profile.xml" value="0.22826086956521738" />
         <entry key="..\:/KCET-COMPLETE-GUIDE_final/app/src/main/res/layout/activity_instructions.xml" value="0.22826086956521738" />
         <entry key="..\:/KCET-COMPLETE-GUIDE_final/app/src/main/res/layout/activity_intro.xml" value="0.1" />
         <entry key="..\:/KCET-COMPLETE-GUIDE_final/app/src/main/res/layout/activity_main2.xml" value="0.22826086956521738" />
         <entry key="..\:/KCET-COMPLETE-GUIDE_final/app/src/main/res/layout/activity_mocksplash.xml" value="0.22826086956521738" />
         <entry key="..\:/KCET-COMPLETE-GUIDE_final/app/src/main/res/layout/activity_mocksubjects.xml" value="0.22826086956521738" />
         <entry key="..\:/KCET-COMPLETE-GUIDE_final/app/src/main/res/layout/activity_predictor.xml" value="0.22826086956521738" />
+        <entry key="..\:/KCET-COMPLETE-GUIDE_final/app/src/main/res/layout/activity_prev.xml" value="0.22826086956521738" />
         <entry key="..\:/KCET-COMPLETE-GUIDE_final/app/src/main/res/layout/activity_puc.xml" value="0.22826086956521738" />
         <entry key="..\:/KCET-COMPLETE-GUIDE_final/app/src/main/res/layout/activity_rank_predict.xml" value="0.22826086956521738" />
         <entry key="..\:/KCET-COMPLETE-GUIDE_final/app/src/main/res/layout/activity_register.xml" value="0.22826086956521738" />
@@ -25,7 +30,10 @@
         <entry key="..\:/KCET-COMPLETE-GUIDE_final/app/src/main/res/layout/activity_webview1.xml" value="0.22826086956521738" />
         <entry key="..\:/KCET-COMPLETE-GUIDE_final/app/src/main/res/layout/activity_youtube_player.xml" value="0.22826086956521738" />
         <entry key="..\:/KCET-COMPLETE-GUIDE_final/app/src/main/res/layout/content_layout.xml" value="0.22826086956521738" />
+        <entry key="..\:/KCET-COMPLETE-GUIDE_final/app/src/main/res/layout/content_profile.xml" value="0.22826086956521738" />
         <entry key="..\:/KCET-COMPLETE-GUIDE_final/app/src/main/res/layout/first_intro.xml" value="0.264" />
+        <entry key="..\:/KCET-COMPLETE-GUIDE_final/app/src/main/res/layout/helper.xml" value="0.22826086956521738" />
+        <entry key="..\:/KCET-COMPLETE-GUIDE_final/app/src/main/res/layout/main_drawer_header.xml" value="0.22826086956521738" />
         <entry key="..\:/KCET-COMPLETE-GUIDE_final/app/src/main/res/layout/second_intro.xml" value="0.22826086956521738" />
         <entry key="..\:/KCET-COMPLETE-GUIDE_final/app/src/main/res/layout/third_intro.xml" value="0.22826086956521738" />
         <entry key="..\:/KCET-COMPLETE-GUIDE_final/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.15" />

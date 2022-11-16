@@ -17,31 +17,20 @@ import net.smallacademy.authenticatorapp.utility.NetworkChangeList;
 
 public class aboutkcet2 extends AppCompatActivity {
     NetworkChangeList networkChangeList = new NetworkChangeList();
-    TextView syllabus1,syllabus2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_aboutkcet2);
         ImageView back=findViewById(R.id.back5);
-        syllabus1=findViewById(R.id.syllabus1);
-        syllabus2=findViewById(R.id.syllabus2);
+        CardView syllabus = findViewById(R.id.syllabus);
 
-        syllabus1.setOnClickListener(new View.OnClickListener() {
+        syllabus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent browser = new Intent(Intent.ACTION_VIEW, Uri.parse("https://cache.careers360.mobi/media/uploads/froala_editor/files/kcet-syllabus-puc1.pdf"));
-                startActivity(browser);
-                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
-            }
-        });
-
-        syllabus2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent browser = new Intent(Intent.ACTION_VIEW, Uri.parse("https://cache.careers360.mobi/media/uploads/froala_editor/files/kcet-syllabus-puc2.pdf"));
-                startActivity(browser);
-                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                startActivity(new Intent(getApplicationContext(),admissionprocess.class));
+                overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right);
+                finish();
             }
         });
         back.setOnClickListener(new View.OnClickListener() {
@@ -67,7 +56,7 @@ public class aboutkcet2 extends AppCompatActivity {
         result.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent browser = new Intent(Intent.ACTION_VIEW, Uri.parse("https://Karresults.nic.in/"));
+                Intent browser = new Intent(Intent.ACTION_VIEW, Uri.parse("https://ntaresults.nic.in/resultservices/NEET-2022-auth"));
                 startActivity(browser);
                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
@@ -93,7 +82,7 @@ public class aboutkcet2 extends AppCompatActivity {
         kea_website.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent browser = new Intent(Intent.ACTION_VIEW, Uri.parse("https://cetonline.Karnataka.gov.in/kea/"));
+                Intent browser = new Intent(Intent.ACTION_VIEW, Uri.parse("https://neet.nta.nic.in/"));
                 startActivity(browser);
                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }

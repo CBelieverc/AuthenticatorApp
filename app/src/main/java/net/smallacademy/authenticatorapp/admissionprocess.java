@@ -36,8 +36,9 @@ public class admissionprocess extends AppCompatActivity {
         schedule.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent browser = new Intent(Intent.ACTION_VIEW, Uri.parse("https://cetonline.Karnataka.gov.in/kea/"));
-                startActivity(browser);
+                Intent intent = new Intent(getApplicationContext(), webview.class);
+                intent.putExtra("pdf_url","https://cache.careers360.mobi/media/uploads/froala_editor/files/finalcoresyllabus_neet-ug-4-11_SbhTheL.pdf");
+                startActivity(intent);
                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
 
 
@@ -48,9 +49,10 @@ public class admissionprocess extends AppCompatActivity {
         required_documents.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), requiredDocuments.class);
+                Intent intent = new Intent(getApplicationContext(), webview.class);
+                intent.putExtra("pdf_url","https://cache.careers360.mobi/media/uploads/froala_editor/files/finalcoresyllabus_neet-ug-12-21.pdf");
                 startActivity(intent);
-                                overridePendingTransition(R.anim.slide_up, R.anim.slide_down);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
 
 
             }
@@ -59,10 +61,10 @@ public class admissionprocess extends AppCompatActivity {
         official_notification.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent browser = new Intent(Intent.ACTION_VIEW, Uri.parse("https://cetonline.Karnataka.gov.in/kea/"));
-                startActivity(browser);
-                                overridePendingTransition(R.anim.slide_up, R.anim.slide_down);
-
+                Intent intent = new Intent(getApplicationContext(), webview.class);
+                intent.putExtra("pdf_url","https://cache.careers360.mobi/media/uploads/froala_editor/files/finalcoresyllabus_neet-ug-22-28.pdf");
+                startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
 
             }
         });
@@ -82,6 +84,8 @@ public class admissionprocess extends AppCompatActivity {
     }
     @Override
     public void onBackPressed() {
+        Intent intent=new Intent(getApplicationContext(),aboutkcet2.class);
+        startActivity(intent);
         finish();
     }
 }

@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
         android:background="@color/colorPrimaryDark"
-        tools:ignore="MissingConstraints">>
+        tools:ignore="MissingConstraints">
 
         <ImageView
             android:id="@+id/back5"
@@ -42,102 +42,18 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/button22"
-        android:layout_width="155dp"
-        android:layout_height="156dp"
+        android:layout_width="300dp"
+        android:layout_height="256dp"
 
-        android:drawablePadding="15dp"
-
-        app:cardCornerRadius="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/button25"
-        app:layout_constraintEnd_toStartOf="@+id/button23"
-        app:layout_constraintHorizontal_bias="0.623"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.748">
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="110dp"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="496dp"
-
-            android:src="@drawable/maths"
-            android:textSize="16sp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_marginTop="110dp"
-            android:fontFamily="@font/aclonica"
-            android:paddingStart="10dp"
-            android:text="Mathematics"
-            android:textColor="@color/colorPrimary"
-            android:textSize="19sp" />
-
-
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/button25"
-        android:layout_width="155dp"
-        android:layout_height="156dp"
-
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="258dp"
-        android:drawableStart="@drawable/ic_web"
-        android:drawablePadding="15dp"
-
-        app:cardCornerRadius="20dp"
-        app:layout_constraintBottom_toBottomOf="@+id/button24"
-        app:layout_constraintEnd_toStartOf="@+id/button24"
-        app:layout_constraintHorizontal_bias="0.623"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/relativeLayout4"
-        app:layout_constraintVertical_bias="1.0">
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="496dp"
-
-            android:src="@drawable/chemistry"
-            android:textSize="16sp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="99dp"
-            android:fontFamily="@font/aclonica"
-            android:paddingStart="10dp"
-            android:text="Chemistry"
-            android:textColor="@color/colorPrimary"
-            android:textSize="19sp" />
-
-
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/button24"
-        android:layout_width="155dp"
-        android:layout_height="156dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:drawableStart="@drawable/ic_web"
         android:drawablePadding="15dp"
 
         app:cardCornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.612">
+        app:layout_constraintVertical_bias="0.32">
 
         <ImageView
             android:layout_width="match_parent"
@@ -148,66 +64,44 @@
             android:src="@drawable/boilogypng"
             android:textSize="16sp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="28dp"
-            android:layout_marginTop="110dp"
-            android:fontFamily="@font/aclonica"
-            android:paddingStart="10dp"
-            android:text="Biology"
-            android:textColor="@color/colorPrimary"
-            android:textSize="19sp" />
-
-
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/button23"
-        android:layout_width="155dp"
-        android:layout_height="156dp"
-        android:layout_marginBottom="48dp"
-        android:drawableStart="@drawable/ic_web"
-        android:drawablePadding="15dp"
-
-        app:cardCornerRadius="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/button24"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.938"
-        app:layout_constraintStart_toStartOf="parent"
-
-        app:layout_constraintTop_toBottomOf="@+id/relativeLayout4"
-        app:layout_constraintVertical_bias="1.0">
-
-
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:layout_alignParentBottom="true"
-            android:layout_marginTop="5dp"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="105dp"
 
             android:src="@drawable/physics"
             android:textSize="16sp" />
 
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="105dp"
+
+            android:src="@drawable/chemistry"
+            android:textSize="16sp" />
+
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="30dp"
-            android:layout_marginTop="110dp"
+            android:layout_marginTop="215dp"
             android:fontFamily="@font/aclonica"
-            android:paddingStart="10dp"
-            android:text="Physics"
+            android:paddingStart="70dp"
+            android:text="Question Papers"
             android:textColor="@color/colorPrimary"
             android:textSize="19sp" />
+
+
     </androidx.cardview.widget.CardView>
 
     <Button
         android:id="@+id/button26"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="460dp"
+        android:layout_marginTop="400dp"
         android:background="@drawable/btn_bg"
         android:padding="15dp"
         android:text="KEY ANSWERS"
@@ -219,6 +113,6 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/relativeLayout4"
-        app:layout_constraintVertical_bias="0.438" />
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
